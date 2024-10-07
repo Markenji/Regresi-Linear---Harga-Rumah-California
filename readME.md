@@ -1,29 +1,29 @@
-# Linear Regression with California Housing Dataset
+# Regresi Linear dengan California Housing Dataset
 
-This project demonstrates how to apply linear regression using the California Housing dataset with scikit-learn. The code provides an example of loading the dataset, preprocessing the data, and performing cross-validation to evaluate the model's performance.
+Proyek ini mendemonstrasikan cara menerapkan regresi linear menggunakan dataset California Housing dengan scikit-learn. Kode ini memuat contoh pengambilan dataset, preprocessing data, dan melakukan cross-validation untuk mengevaluasi kinerja model.
 
 ## Dataset
 
-The dataset used in this project is the **California Housing Dataset**, which contains information about median house prices in various districts in California. The target variable is the median house value for California districts, expressed in hundreds of thousands of dollars.
+Dataset yang digunakan dalam proyek ini adalah **California Housing Dataset**, yang berisi informasi tentang harga rumah median di berbagai distrik di California. Variabel target adalah nilai median rumah di distrik-distrik California, yang dinyatakan dalam ratusan ribu dolar.
 
-### Features:
+### Fitur:
 
-- `MedInc`: Median income in block group.
-- `HouseAge`: Median house age in block group.
-- `AveRooms`: Average number of rooms per household.
-- `AveBedrms`: Average number of bedrooms per household.
-- `Population`: Block group population.
-- `AveOccup`: Average number of household members.
-- `Latitude`: Block group latitude.
-- `Longitude`: Block group longitude.
+- `MedInc`: Pendapatan median dalam kelompok.
+- `HouseAge`: Usia median rumah dalam kelompok.
+- `AveRooms`: Jumlah rata-rata kamar per rumah tangga.
+- `AveBedrms`: Jumlah rata-rata kamar tidur per rumah tangga.
+- `Population`: Populasi kelompok.
+- `AveOccup`: Rata-rata jumlah anggota rumah tangga.
+- `Latitude`: Garis lintang kelompok.
+- `Longitude`: Garis bujur kelompok.
 
 ### Target:
 
-- `Price`: Median house value for California districts, in hundreds of thousands of dollars.
+- `Price`: Nilai median rumah untuk distrik-distrik di California, dalam ratusan ribu dolar.
 
-## Installation
+## Instalasi
 
-You will need Python 3.x and the following libraries to run the code:
+Anda memerlukan Python 3.x dan pustaka berikut untuk menjalankan kode:
 
 - `numpy`
 - `pandas`
@@ -31,7 +31,7 @@ You will need Python 3.x and the following libraries to run the code:
 - `matplotlib`
 - `scikit-learn`
 
-To install the required libraries, run:
+Untuk menginstal pustaka yang dibutuhkan, jalankan perintah berikut:
 
 ```bash
 pip install numpy pandas seaborn matplotlib scikit-learn
